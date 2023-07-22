@@ -77,3 +77,22 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+
+
+# Personal  
+
+# To link fonts to project we have to do this
+a. created a react-native.config.js file and this file just a js object which minimum need project and assest ans export it from there
+b. then we have to link this file bu running command npx react-native-asset link
+
+this will link your assets to yout project
+
+
+# to get more welcome screen images you can go to unDraw.co website and get from there and to customize that svg images we can go to vectorpaint.yaks.co.nz and there we can load that svg and customize that
+
+# react native vector icons are used in this and installed by command  
+"npm install --save react-native-vector-icons"
+https://github.com/oblador/react-native-vector-icons go to this link as we have to add two lines to android/setting.gradle file which can be get from here
