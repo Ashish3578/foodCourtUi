@@ -59,7 +59,7 @@ const SignupScreen=({navigation})=> {
         </View>
       </View>
       <Text></Text>
-      <TouchableOpacity style={styles.signInButton}>
+      <TouchableOpacity style={styles.signInButton} onPress={()=>navigation.navigate('RegisterPhoneScreen')}>
         <Text style={styles.signInButtonText}>Create Account</Text>
       </TouchableOpacity>
       <Seprator height={18}/>

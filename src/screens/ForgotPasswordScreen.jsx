@@ -8,7 +8,7 @@ import Fonts from '../constants/Fonts';
 import Display from '../utils/Display';
 import Images from '../constants/Images';
 
-const ForgotPasswordScreen=()=> {
+const ForgotPasswordScreen=({navigation})=> {
   return (
     <View>
         <StatusBar barStyle="default" 
