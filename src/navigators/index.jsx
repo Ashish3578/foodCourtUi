@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {ForgotPasswordScreen, SplashScreen,RegisterPhoneScreen} from '../screens';
+import {ForgotPasswordScreen, SplashScreen,RegisterPhoneScreen,OtpVerificationScreen} from '../screens';
 import WelcomeScreen from '../screens/WelcomeScreen';
 import SigninScreen from '../screens/SigninScreen';
 import SignupScreen from '../screens/SignupScreen';
@@ -19,6 +19,7 @@ export const Navigators = () => {
         <Stack.Screen name="SignUpScreen" component={SignupScreen}/>
         <Stack.Screen name="ForgotPasswordScreen" component={ForgotPasswordScreen}/>
         <Stack.Screen name="RegisterPhoneScreen" component={RegisterPhoneScreen}/>
+        <Stack.Screen name="VerificationScreen" component={OtpVerificationScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
